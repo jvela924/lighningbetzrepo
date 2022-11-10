@@ -10,6 +10,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSports.STM.SampleApp.Runne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSports.STM.SampleApp.Common", "LSports.STM.SampleApp.Common\LSports.STM.SampleApp.Common.csproj", "{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{55B2D9C9-8B12-47CA-86B4-5C43AE519A13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F081ECDE-C8C0-44DA-B59E-FAD9B2F3CDF2}"
+	ProjectSection(SolutionItems) = preProject
+		package-lock.json = package-lock.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
