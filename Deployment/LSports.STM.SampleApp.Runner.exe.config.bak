@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="username" value="1" />
+    <add key="password" value="Tests" />
+    <add key="packageid" value="1" />
+    <!--
+    //choose your own format type for deserialization (for example: if you receive XML format set to 1) 
+    formatTypes: 
+    XML = 1
+    JSON = 2
+    PROTOBUF = 3
+    -->
+    <add key="formatType" value="3" />
+
+    <!-- in case of inplay -->
+    <add key="RmqServer" value="ilteststmrmq"/>
+    <add key="VHost" value="StmInPlay"/>
+
+
+    <!-- in case of prematch
+    <add key="RmqServer" value="stm-prematch.lsports.eu"/>
+    <add key="VHost" value="StmPreMatch"/>
+ -->
+    <add key="WriteLogFile" value="true"/>
+    <add key="PullserviceUrl" value="stm-snapshot.lsports.eu"/>
+    <add key="ApiServiceUrl" value="stm-api.lsports.eu"/>
+  </appSettings>
+
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <probing privatePath="Lib;3rdParty\Newtonsoft;3rdParty\Protobuf;3rdParty\RabbitMq;"/>
+    </assemblyBinding>
+  </runtime>
+</configuration>

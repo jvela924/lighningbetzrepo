@@ -1,0 +1,13 @@
+C:/TFS/STM/STMReleasedProd/Other/LSports.STM.SampleApp/Deployment/LSports.STM.SampleApp.Runner.exe.config
+C:/TFS/STM/STMReleasedProd/Other/LSports.STM.SampleApp/Deployment/LSports.STM.SampleApp.Runner.exe
+C:/TFS/STM/STMReleasedProd/Other/LSports.STM.SampleApp/Deployment/LSports.STM.SampleApp.Runner.pdb
+C:/TFS/STM/STMReleasedProd/Other/LSports.STM.SampleApp/LSports.STM.SampleApp.Runner/obj/Debug/LSports.STM.SampleApp.Runner.exe
+C:/TFS/STM/STMReleasedProd/Other/LSports.STM.SampleApp/LSports.STM.SampleApp.Runner/obj/Debug/LSports.STM.SampleApp.Runner.pdb
+C:/TFS/STM/STMReleasedProd/Other/LSports.STM.SampleApp/LSports.STM.SampleApp.Runner/obj/Debug/LSports.STM.SampleApp.Runner.csprojResolveAssemblyReference.cache
+/Users/jvela/Documents/LSports.STM.SampleApp/Deployment/LSports.STM.SampleApp.Runner.exe.config
+/Users/jvela/Documents/LSports.STM.SampleApp/Deployment/LSports.STM.SampleApp.Runner.exe
+/Users/jvela/Documents/LSports.STM.SampleApp/Deployment/LSports.STM.SampleApp.Runner.pdb
+/Users/jvela/Documents/LSports.STM.SampleApp/LSports.STM.SampleApp.Runner/obj/Debug/LSports.STM.SampleApp.Runner.csproj.AssemblyReference.cache
+/Users/jvela/Documents/LSports.STM.SampleApp/LSports.STM.SampleApp.Runner/obj/Debug/LSports.STM.SampleApp.Runner.csproj.CoreCompileInputs.cache
+/Users/jvela/Documents/LSports.STM.SampleApp/LSports.STM.SampleApp.Runner/obj/Debug/LSports.STM.SampleApp.Runner.exe
+/Users/jvela/Documents/LSports.STM.SampleApp/LSports.STM.SampleApp.Runner/obj/Debug/LSports.STM.SampleApp.Runner.pdb

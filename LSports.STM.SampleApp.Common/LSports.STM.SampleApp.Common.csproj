@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LSports.STM.SampleApp.Common</RootNamespace>
+    <AssemblyName>LSports.STM.SampleApp.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Deployment\Lib\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Deployment\Lib\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Deployment\3rdParty\Newtonsoft\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\Deployment\3rdParty\Protobuf\protobuf-net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RabbitMQ.Client">
+      <HintPath>..\Deployment\3rdParty\RabbitMq\RabbitMQ.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communication\RabbitClient.cs" />
+    <Compile Include="Configurations\ClientConfiguration.cs" />
+    <Compile Include="Configurations\ConfigurationHelper.cs" />
+    <Compile Include="Consts\Const.cs" />
+    <Compile Include="Entities\Competition.cs" />
+    <Compile Include="Entities\Event.cs" />
+    <Compile Include="Entities\Fixture\Fixture.cs" />
+    <Compile Include="Entities\Fixture\League.cs" />
+    <Compile Include="Entities\Fixture\Location.cs" />
+    <Compile Include="Entities\Fixture\Participant.cs" />
+    <Compile Include="Entities\Fixture\Sport.cs" />
+    <Compile Include="Entities\KeepAlive.cs" />
+    <Compile Include="Entities\Livescore\Incident.cs" />
+    <Compile Include="Entities\Livescore\Livescore.cs" />
+    <Compile Include="Entities\Livescore\Period.cs" />
+    <Compile Include="Entities\Livescore\Result.cs" />
+    <Compile Include="Entities\Livescore\Scoreboard.cs" />
+    <Compile Include="Entities\Livescore\Statistic.cs" />
+    <Compile Include="Entities\Markets\Bet.cs" />
+    <Compile Include="Entities\Markets\Market.cs" />
+    <Compile Include="Entities\Markets\Provider.cs" />
+    <Compile Include="Entities\Messages\Body.cs" />
+    <Compile Include="Entities\Messages\Header.cs" />
+    <Compile Include="Entities\Messages\Message.cs" />
+    <Compile Include="Entities\Messages\SnapshotContainer.cs" />
+    <Compile Include="Entities\Misc\NameValueContainer.cs" />
+    <Compile Include="Entities\Misc\SubscriptionStatusContainer.cs" />
+    <Compile Include="Entities\Outright\OutrightFixture.cs" />
+    <Compile Include="Entities\Outright\OutrightLeague.cs" />
+    <Compile Include="Entities\Outright\OutrightScore.cs" />
+    <Compile Include="Entities\Outright\OutrightParticipantElement.cs" />
+    <Compile Include="Entities\PackageDetails.cs" />
+    <Compile Include="Enums\BetStatus.cs" />
+    <Compile Include="Enums\CustomerPackageType.cs" />
+    <Compile Include="Enums\FixtureStatus.cs" />
+    <Compile Include="Enums\FormatType.cs" />
+    <Compile Include="Enums\RequestType.cs" />
+    <Compile Include="Enums\SettlementType.cs" />
+    <Compile Include="Enums\StatisticType.cs" />
+    <Compile Include="Enums\StatusDescription.cs" />
+    <Compile Include="Enums\SubscriptionStatus.cs" />
+    <Compile Include="Exceptions\ConnectionFailureException.cs" />
+    <Compile Include="Exceptions\MissingKeyInConfigurationException.cs" />
+    <Compile Include="Exceptions\PackageNotValidException.cs" />
+    <Compile Include="Exceptions\SnapshotRetrievalException.cs" />
+    <Compile Include="Exceptions\UnexpectedValueTypeException.cs" />
+    <Compile Include="Extensions\GZipWebClient.cs" />
+    <Compile Include="Extensions\SerializationExtensions.cs" />
+    <Compile Include="Interfaces\IWorker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

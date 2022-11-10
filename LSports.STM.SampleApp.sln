@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSports.STM.SampleApp.Runner", "LSports.STM.SampleApp.Runner\LSports.STM.SampleApp.Runner.csproj", "{4EDA22FF-0C21-4113-9142-A5AA2E3B47DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A} = {C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSports.STM.SampleApp.Common", "LSports.STM.SampleApp.Common\LSports.STM.SampleApp.Common.csproj", "{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EDA22FF-0C21-4113-9142-A5AA2E3B47DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDA22FF-0C21-4113-9142-A5AA2E3B47DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDA22FF-0C21-4113-9142-A5AA2E3B47DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDA22FF-0C21-4113-9142-A5AA2E3B47DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32A48F7-CD6B-48E5-9EA2-D1157B8D7B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/development
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\..\\..\\Users\\Daniel.h\\Desktop\\LSports.STM.SampleApp\\LSports.STM.SampleApp.Runner\\LSports.STM.SampleApp.Runner.csproj
+		SccProjectName1 = LSports.STM.SampleApp.Runner
+		SccLocalPath1 = ..\\..\\..\\..\\Users\\Daniel.h\\Desktop\\LSports.STM.SampleApp\\LSports.STM.SampleApp.Runner
+		SccProjectUniqueName2 = ..\\..\\..\\..\\Users\\Daniel.h\\Desktop\\LSports.STM.SampleApp\\LSports.STM.SampleApp.Common\\LSports.STM.SampleApp.Common.csproj
+		SccProjectName2 = LSports.STM.SampleApp.Common
+		SccLocalPath2 = ..\\..\\..\\..\\Users\\Daniel.h\\Desktop\\LSports.STM.SampleApp\\LSports.STM.SampleApp.Common
+	EndGlobalSection
+EndGlobal

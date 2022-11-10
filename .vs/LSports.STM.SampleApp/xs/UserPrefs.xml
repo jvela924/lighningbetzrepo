@@ -1,0 +1,16 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{4EDA22FF-0C21-4113-9142-A5AA2E3B47DF}|Default">
+  <MonoDevelop.Ide.ItemProperties.LSports.STM.SampleApp.Runner PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LSports.STM.SampleApp" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+</Properties>
